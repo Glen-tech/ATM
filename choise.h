@@ -12,11 +12,14 @@ public:
     choise();
     ~choise();
     void show_message();
-    void give_input();
+    int give_input(int);
+    void process_input();
 
-    short int* input_p;
-    short int convert;
+    int give;
+    int convert;
+    int toChoise;
     string input ; 
+    
 
 };
 

@@ -11,7 +11,8 @@ public:
 	
 private:
 
-	virtual void give_input() = 0;
+	//virtual int give_input() = 0;
+	virtual void process_input() = 0;
 	/*virtual char login() = 0;
 	virtual char name()= 0;
 	virtual int balance() = 0;*/

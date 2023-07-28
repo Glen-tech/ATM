@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-    choise go;
-    go.show_message();
+    choise *go = new choise();
+    go->show_message();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
