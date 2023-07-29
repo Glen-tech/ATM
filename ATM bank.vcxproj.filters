@@ -24,12 +24,18 @@
     <ClCompile Include="choise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="add_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="atm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="choise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="add_user.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_user.cpp" />
     <ClCompile Include="choise.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="atm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="add_user.h" />
     <ClInclude Include="atm.h" />
     <ClInclude Include="choise.h" />
   </ItemGroup>
