@@ -21,10 +21,16 @@ public:
     int toChoise;
     string input ; 
 
-private :
+private : // keeping it protected from now 
 
     add_user *go_ad;
+    void check_excel_file();
     void go_to_adduser();
+    void go_to_delete_user();
+    void go_to_login();
+    void go_to_exit();
+    void go_to_easter_egg();
+
     
    
 

@@ -17,8 +17,10 @@ choise::choise()
 	
 }
 
+
 void choise::show_message()
 {
+
 	cout << "Hello user" << endl;
 	cout << "Press 1 to add user" << endl;
 	cout << "Press 2 to login" << endl;
@@ -26,20 +28,7 @@ void choise::show_message()
 	cout << "Press 4 to end program" << endl;
 
 	loop_input();
-}
-
-void choise::go_to_adduser()
-{
-	go_ad = new add_user();
-	go_ad->show_message();
-
-}
-
-int choise::give_input(int convert)
-{
-	cin >> input; 
-	convert = stoi(input); // convert to int
-	return convert;
+	
 }
 
 
@@ -47,7 +36,7 @@ void choise::loop_input()
 {
 	in_input i;
 
-	while (toChoise != 4) // while loop stopt at number 112
+	while (toChoise != 4) // while loop stopt at number 4
 	{
 		toChoise = give_input(give);
 		i = static_cast<in_input>(toChoise);
@@ -82,9 +71,26 @@ void choise::loop_input()
 }
 
 
+int choise::give_input(int convert)
+{
+	cin >> input;
+	convert = stoi(input); // convert to int
+	return convert;
+}
+
+
+void choise::go_to_adduser()
+{
+	go_ad = new add_user();
+	go_ad->show_message();
+
+
+}
+
+
 
 choise::~choise()
 {
-	
+	delete go_ad;
 }
 

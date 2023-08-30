@@ -27,6 +27,18 @@
     <ClCompile Include="add_user.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="delete_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easter_egg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="atm.h">
@@ -36,6 +48,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="add_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delete_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="login_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="easter_egg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
